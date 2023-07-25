@@ -1,0 +1,35 @@
+.rtl {
+  justify-content: end;
+  font-family: system-ui !important;
+  & #hero-sec {
+    & h1,
+    h2 {
+      display: flex;
+      font-weight: 700 !important;
+    }
+    .btn.bg-yellow {
+      display: flex;
+      justify-content: end;
+      width: fit-content;
+    }
+  }
+
+  #form-sec {
+    & p {
+      font-size: 17px !important;
+    }
+  }
+
+  .text-md-start {
+    text-align: right !important;
+  }
+  .text-start {
+    text-align: right !important;
+  }
+
+  #features {
+    & .feat-icon {
+      margin-left: 10px;
+    }
+  }
+}

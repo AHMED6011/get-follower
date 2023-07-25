@@ -1,0 +1,49 @@
+.rtl {
+  justify-content: end;
+  font-family: system-ui !important;
+}
+.rtl #hero-sec h1,
+.rtl #hero-sec h2 {
+  display: flex;
+  font-weight: 700 !important;
+}
+.rtl #hero-sec .btn.bg-yellow {
+  display: flex;
+  justify-content: end;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.rtl #form-sec p {
+  font-size: 17px !important;
+}
+.rtl .text-md-start {
+  text-align: right !important;
+}
+.rtl .text-start {
+  text-align: right !important;
+}
+.rtl #features .feat-icon {
+  margin-left: 10px;
+}
+
+body {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.yellow {
+  color: #fdf001 !important;
+}
+
+.bg-yellow {
+  background-color: #fdf001 !important;
+}
+
+.main-head {
+  color: #fff;
+  text-align: right;
+  font-size: 76px;
+  font-weight: 900;
+  margin-top: 0;
+}/*# sourceMappingURL=main.css.map */
