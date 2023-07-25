@@ -8,9 +8,11 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "deploy": "sh deploy.sh"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "homepage": "http://AHMED6011.github.io/get-follower",
     "aos": "^2.3.4",
     "axios": "^1.4.0",
     "bootstrap": "^5.3.0",
@@ -28,6 +30,7 @@
     "@vue/eslint-config-prettier": "^7.1.0",
     "eslint": "^8.39.0",
     "eslint-plugin-vue": "^9.11.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.8.8",
     "sass": "^1.63.6",
     "vite": "^4.3.9"
