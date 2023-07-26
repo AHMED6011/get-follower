@@ -41,7 +41,7 @@
                 val="3"
                 class="nav-link rounded-1"
               >
-                <i class="fab fa-tikhrefk"></i>
+                <i class="fab fa-tiktok"></i>
                 {{ $t('SeoNav3') }}
               </button>
             </li>
