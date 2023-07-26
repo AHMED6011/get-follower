@@ -4,7 +4,7 @@
       <div class="container text-center text-md-start px-16 position-relative">
         <div class="row">
           <div class="col-md-7 grid-cols-1">
-            <h1 data-aos="fade-up" id="" data-aos-duration="3000" class="text-white font-bold">
+            <h1 data-aos="fade-up" id="" data-aos-duration="3000" class="text-white font-bold tracking-in-expand-fwd ">
               {{ $t('landH1T') }}
               <br />
               {{ $t('landH1B') }}
@@ -365,7 +365,6 @@ export default {
 
     .images-fade {
       position: relative;
-      // border-radius: 50px;
       overflow: hidden;
 
       &::after {
@@ -717,4 +716,25 @@ export default {
     font-size: 13px;
   }
 }
+
+//!
+.tracking-in-expand-fwd {
+	animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+//!
+
 </style>

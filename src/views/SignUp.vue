@@ -129,7 +129,7 @@
           data-aos-duration="1500"
           data-aos="fade-up-left"
         >
-          <h2 class="inner-main-head">{{ $t('signupH2') }}</h2>
+          <h2 class="inner-main-head ">{{ $t('signupH2') }}</h2>
           <h3 class="inner-sub-head">{{ $t('signupH3') }}</h3>
           <img class="lap img-fluid" :src="$t('signupImg')" alt="laptop" />
         </div>
@@ -146,6 +146,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 #sign-up {
   & .form-group {
     margin-bottom: 15px;

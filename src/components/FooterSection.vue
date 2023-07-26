@@ -18,7 +18,7 @@
             <h4 class="widget-title">{{ $t('footeQH4') }}</h4>
             <ul class="footer-nav">
               <li>
-                <RouterLink to="/api">API</RouterLink>
+                <RouterLink to="/">API</RouterLink>
               </li>
               <li>
                 <RouterLink to="/howitworks">{{ $t('footerQL1') }}</RouterLink>

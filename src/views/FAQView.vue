@@ -327,7 +327,7 @@
             <div class="faq-cont-icon">
               <i class="far fa-question"></i>
             </div>
-            <h4>{{ $t('faqL56') }}</h4>
+            <h4>{{ $t('faqL6') }}</h4>
             <p>{{ $t('faqBox6P') }}</p>
           </div>
           <div :class="{ active: active === '7' }" class="tab-pane">
