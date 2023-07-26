@@ -3,7 +3,7 @@
     <section id="hero-sec">
       <div class="container text-center text-md-start px-16 position-relative">
         <div class="row">
-          <div class="col-md-7 grid-cols-1">
+          <div class="col-md-7 text-start text-content">
             <h1 data-aos="fade-up" id="" data-aos-duration="3000" class="text-white font-bold tracking-in-expand-fwd ">
               {{ $t('landH1T') }}
               <br />
@@ -69,7 +69,7 @@
     <section id="form-sec">
       <div class="container-fluid container-md">
         <div class="row">
-          <div class="col-md-12 text-start">
+          <div class="col-md-12 text-center text-md-start">
             <h2 data-aos="fade-up" data-aos-duration="2000">
               {{ $t('fromSecH2T') }}
               <br />
@@ -97,7 +97,7 @@
                     <div class="ps-5 pb-3 d-flex d-sm-none">
                       {{ $t('fromSecForgot') }}
                       <RouterLink
-                        to="/resetpassword"
+                        to="/"
                         class="link-underline link-underline-opacity-0"
                         >Reset</RouterLink
                       >
@@ -622,6 +622,7 @@ export default {
 
 @media (max-width: 550px) {
   #hero-sec {
+    padding: 30px 0 40px;
     margin-bottom: 50px;
     &::before {
       padding: 130px 0 40px;
@@ -648,6 +649,12 @@ export default {
 
     & .nav.nav-tabs {
       flex-wrap: wrap;
+    }
+
+    .text-content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
     }
   }
 

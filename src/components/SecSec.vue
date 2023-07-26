@@ -9,7 +9,7 @@
           <ul
             data-aos="fade-up"
             data-aos-duration="2000"
-            class="nav gap-1 gap-sm-2 gap-md-0 border-bottom-0 nav-tabs"
+            class="nav gap-sm-2 gap-md-0 border-bottom-0 nav-tabs"
           >
             <li class="nav-item">
               <button
