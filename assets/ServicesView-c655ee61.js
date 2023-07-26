@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as a,a as o,t as _}from"./index-07eb2610.js";const c={},r={class:"heartbeat"};function n(e,d,i,p,l,f){return t(),a("div",null,[o("h1",r,_(e.$t("serveH")),1)])}const v=s(c,[["render",n],["__scopeId","data-v-fda46260"]]);export{v as default};
