@@ -310,7 +310,7 @@
             <h4>{{ $t('faqL4') }}</h4>
             <p>
               {{ $t('faqBox4P1') }}
-              <a href="https://smmcpan.com/en/child-panels">https://smmcpan.com/en/child-panels</a>
+              <a href="#">smmcpan</a>
               {{ $t('faqBox4P2') }}
             </p>
           </div>
@@ -337,7 +337,7 @@
             <h4>{{ $t('faqL7') }}</h4>
             <p>
               {{ $t('faqBox7P') }}
-              <a href="https://smmcpan.com/tickets/">{{ $t('faqBoxL') }}</a
+              <a href="#">{{ $t('faqBoxL') }}</a
               >.
             </p>
           </div>
@@ -354,7 +354,7 @@
             </div>
             <h4>{{ $t('faqL9') }}</h4>
             <p>
-              {{ $t('faqBox9P') }} <a href="https://smmcpan.com/tickets/">{{ $t('faqBoxL') }}</a>
+              {{ $t('faqBox9P') }} <a href="#">{{ $t('faqBoxL') }}</a>
             </p>
           </div>
           <div :class="{ active: active === '10' }" class="tab-pane">
