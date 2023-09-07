@@ -43,13 +43,13 @@
 import blogs from '../blogs'
 export default {
   props: ['id'],
-  name: 'BlogData',
+  // name: 'BlogData',
   data() {
     return {
-      blog: null
+      blog: []
     }
   },
-  async created() {
+  created() {
     this.blog = blogs.find((blog) => blog.id === parseInt(this.id))
   }
 }
