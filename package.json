@@ -12,17 +12,14 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "homepage": "http://AHMED6011.github.io/get-follower",
     "aos": "^2.3.4",
     "axios": "^1.4.0",
     "bootstrap": "^5.3.0",
     "jquery": "^3.7.0",
-    "mongodb": "^5.7.0",
     "popper": "^1.0.1",
     "vue": "^3.3.4",
     "vue-i18n": "^9.2.2",
-    "vue-router": "^4.2.2",
-    "vuex": "^4.1.0"
+    "vue-router": "^4.2.2"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
